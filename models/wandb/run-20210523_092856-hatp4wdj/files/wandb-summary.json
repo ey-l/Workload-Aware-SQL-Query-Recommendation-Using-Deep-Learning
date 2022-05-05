@@ -1,1 +1,0 @@
-{"epoch": 1, "train_loss": 1.5967108276472137, "valid_loss": 1.6478691438833872, "epoch_time": 36.26475286483765, "_runtime": 82, "_timestamp": 1621787418, "_step": 2, "test_accuracy": 0.6711111111111111, "test_time": 0.0, "test_size": 450}

@@ -1,6 +1,0 @@
-End of epoch 1 | train loss: 3.745 | validation loss: 2.308 | epoch_time: 4.232585191726685
-Validation loss decreased (inf --> 2.308209).  Saving model ...
-End of epoch 2 | train loss: 2.047 | validation loss: 1.767 | epoch_time: 4.421764135360718
-Validation loss decreased (2.308209 --> 1.767498).  Saving model ...
-Finished Training
-Accuracy of the model on 452 query pairs | f-measure fragment: 65.63%| f-measure table: 100.00%| f-measure attribute: 61.68%| f-measure function: 98.37%| f-measure literal: 100.00%
