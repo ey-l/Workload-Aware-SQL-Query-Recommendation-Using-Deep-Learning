@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.4",
+    "heartbeatAt": "2021-05-23T17:20:18.499954",
+    "startedAt": "2021-05-23T17:20:17.103449",
+    "docker": null,
+    "gpu": "GeForce GTX 1080",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "cnn.yaml"
+    ],
+    "state": "running",
+    "program": "seq2seq_pipeline.py",
+    "codePath": "scripts\\models\\seq2seq_pipeline.py",
+    "git": {
+        "remote": "git@github.com:eugenieshine/queryteller.git",
+        "commit": "fc0ee0cffa24a9aafffe4e9e83b1cac95a8aba4e"
+    },
+    "email": "yujinglai0707@gmail.com",
+    "root": "C:/Users/citron-admin/Projects/queryteller",
+    "host": "citron",
+    "username": "citron-admin",
+    "executable": "C:\\Users\\citron-admin\\Anaconda3\\python.exe"
+}

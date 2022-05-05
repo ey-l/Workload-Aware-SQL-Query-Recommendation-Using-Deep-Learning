@@ -1,0 +1,1 @@
+Accuracy of the model on 452 query pairs | f-measure fragment: 79.39%| f-measure table: 100.00%| f-measure attribute: 78.72%| f-measure function: 100.00%| f-measure literal: nan%

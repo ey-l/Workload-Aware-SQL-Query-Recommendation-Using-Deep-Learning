@@ -1,0 +1,220 @@
+2021-05-22 15:05:50,356 INFO    MainThread:10264 [internal.py:wandb_internal():91] W&B internal server running at pid: 10264, started at: 2021-05-22 15:05:50.356225
+2021-05-22 15:05:50,356 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: check_version
+2021-05-22 15:05:50,356 INFO    WriterThread:10264 [datastore.py:open_for_write():77] open: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\run-ql62uc4w.wandb
+2021-05-22 15:05:50,356 DEBUG   SenderThread:10264 [sender.py:send():176] send: header
+2021-05-22 15:05:50,356 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: check_version
+2021-05-22 15:05:50,418 DEBUG   SenderThread:10264 [sender.py:send():176] send: run
+2021-05-22 15:05:50,621 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: run_start
+2021-05-22 15:05:50,621 INFO    SenderThread:10264 [dir_watcher.py:__init__():168] watching files in: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files
+2021-05-22 15:05:50,621 INFO    SenderThread:10264 [sender.py:_start_run_threads():699] run started: ql62uc4w with start time 1621721149
+2021-05-22 15:05:50,621 DEBUG   SenderThread:10264 [sender.py:send():176] send: summary
+2021-05-22 15:05:50,621 INFO    SenderThread:10264 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 15:05:50,621 DEBUG   HandlerThread:10264 [meta.py:__init__():39] meta init
+2021-05-22 15:05:50,621 DEBUG   HandlerThread:10264 [meta.py:__init__():53] meta init done
+2021-05-22 15:05:50,621 DEBUG   HandlerThread:10264 [meta.py:probe():210] probe
+2021-05-22 15:05:50,653 DEBUG   HandlerThread:10264 [meta.py:_setup_git():200] setup git
+2021-05-22 15:05:50,715 DEBUG   HandlerThread:10264 [meta.py:_setup_git():207] setup git done
+2021-05-22 15:05:50,715 DEBUG   HandlerThread:10264 [meta.py:_save_pip():57] save pip
+2021-05-22 15:05:50,715 DEBUG   HandlerThread:10264 [meta.py:_save_pip():71] save pip done
+2021-05-22 15:05:50,715 DEBUG   HandlerThread:10264 [meta.py:_save_conda():78] save conda
+2021-05-22 15:05:51,636 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\conda-environment.yaml
+2021-05-22 15:05:51,636 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-summary.json
+2021-05-22 15:05:51,636 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\requirements.txt
+2021-05-22 15:05:55,295 DEBUG   HandlerThread:10264 [meta.py:_save_conda():86] save conda done
+2021-05-22 15:05:55,295 DEBUG   HandlerThread:10264 [meta.py:probe():252] probe done
+2021-05-22 15:05:55,295 DEBUG   SenderThread:10264 [sender.py:send():176] send: files
+2021-05-22 15:05:55,295 INFO    SenderThread:10264 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-22 15:05:55,309 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:05:55,309 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:05:55,621 INFO    Thread-17 :10264 [upload_job.py:push():133] Uploaded file C:\Users\CITRON~2\AppData\Local\Temp\tmpzd93qk0swandb\3tksukqc-wandb-metadata.json
+2021-05-22 15:05:55,668 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\conda-environment.yaml
+2021-05-22 15:05:55,668 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-metadata.json
+2021-05-22 15:05:55,668 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\output.log
+2021-05-22 15:06:10,391 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:06:10,391 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:06:21,552 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:06:25,495 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:06:25,495 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:06:40,576 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:06:40,576 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:06:50,349 DEBUG   SenderThread:10264 [sender.py:send():176] send: history
+2021-05-22 15:06:50,349 DEBUG   SenderThread:10264 [sender.py:send():176] send: summary
+2021-05-22 15:06:50,349 INFO    SenderThread:10264 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 15:06:51,184 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-summary.json
+2021-05-22 15:06:54,448 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:06:55,683 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:06:55,683 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:07:10,782 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:07:10,782 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:07:25,875 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:07:25,875 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:07:27,624 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:07:40,958 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:07:40,958 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:07:45,305 DEBUG   SenderThread:10264 [sender.py:send():176] send: history
+2021-05-22 15:07:45,306 DEBUG   SenderThread:10264 [sender.py:send():176] send: summary
+2021-05-22 15:07:45,306 INFO    SenderThread:10264 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 15:07:45,606 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-summary.json
+2021-05-22 15:07:56,063 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:07:56,063 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:08:00,302 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:08:11,147 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:08:11,147 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:08:26,241 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:08:26,241 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:08:33,328 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:08:41,333 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:08:41,333 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:08:56,440 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:08:56,440 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:09:06,267 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:09:11,529 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:09:11,529 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:09:26,628 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:09:26,628 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:09:38,902 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:09:41,722 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:09:41,722 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:09:56,814 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:09:56,814 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:10:11,910 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:10:11,910 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:10:12,063 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:10:27,002 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:10:27,002 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:10:42,098 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:10:42,098 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:10:44,506 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:10:57,192 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:10:57,192 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:11:12,285 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:11:12,285 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:11:17,651 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:11:27,385 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:11:27,385 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:11:42,490 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:11:42,490 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:11:50,334 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:11:57,574 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:11:57,574 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:12:12,653 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:12:12,653 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:12:23,466 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:12:27,751 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:12:27,751 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:12:42,857 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:12:42,857 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:12:56,336 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:12:57,948 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:12:57,948 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:13:13,029 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:13:13,029 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:13:28,126 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:13:28,126 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:13:29,557 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:13:43,227 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 15:13:43,227 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 15:13:45,531 DEBUG   SenderThread:10264 [sender.py:send():176] send: history
+2021-05-22 15:13:45,531 DEBUG   SenderThread:10264 [sender.py:send():176] send: summary
+2021-05-22 15:13:45,531 INFO    SenderThread:10264 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 15:13:45,533 DEBUG   SenderThread:10264 [sender.py:send():176] send: telemetry
+2021-05-22 15:13:45,533 DEBUG   SenderThread:10264 [sender.py:send():176] send: exit
+2021-05-22 15:13:45,533 INFO    SenderThread:10264 [sender.py:send_exit():281] handling exit code: 0
+2021-05-22 15:13:45,533 INFO    SenderThread:10264 [sender.py:send_exit():289] send defer
+2021-05-22 15:13:45,533 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:45,533 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:45,533 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:45,533 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-22 15:13:45,533 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:45,533 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-22 15:13:45,533 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 1
+2021-05-22 15:13:45,533 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:45,533 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-22 15:13:45,559 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:45,559 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-22 15:13:45,559 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 2
+2021-05-22 15:13:45,559 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:45,559 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-22 15:13:45,559 DEBUG   SenderThread:10264 [sender.py:send():176] send: stats
+2021-05-22 15:13:45,559 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:45,559 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-22 15:13:45,559 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 3
+2021-05-22 15:13:45,559 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:45,559 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-22 15:13:45,559 DEBUG   SenderThread:10264 [sender.py:send():176] send: summary
+2021-05-22 15:13:45,575 INFO    SenderThread:10264 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 15:13:45,575 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:45,575 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-22 15:13:45,575 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 4
+2021-05-22 15:13:45,575 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:45,575 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-22 15:13:45,575 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:45,575 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-22 15:13:45,637 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:45,665 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-summary.json
+2021-05-22 15:13:45,665 INFO    Thread-12 :10264 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\output.log
+2021-05-22 15:13:45,684 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 5
+2021-05-22 15:13:45,684 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:45,684 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:45,684 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-22 15:13:45,684 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:45,684 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-22 15:13:45,684 INFO    SenderThread:10264 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-22 15:13:45,794 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:46,682 INFO    SenderThread:10264 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\config.yaml
+2021-05-22 15:13:46,683 INFO    SenderThread:10264 [dir_watcher.py:finish():312] scan: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files
+2021-05-22 15:13:46,683 INFO    SenderThread:10264 [dir_watcher.py:finish():318] scan save: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\conda-environment.yaml conda-environment.yaml
+2021-05-22 15:13:46,684 INFO    SenderThread:10264 [dir_watcher.py:finish():318] scan save: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\config.yaml config.yaml
+2021-05-22 15:13:46,684 INFO    SenderThread:10264 [dir_watcher.py:finish():318] scan save: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\output.log output.log
+2021-05-22 15:13:46,687 INFO    SenderThread:10264 [dir_watcher.py:finish():318] scan save: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\requirements.txt requirements.txt
+2021-05-22 15:13:46,692 INFO    SenderThread:10264 [dir_watcher.py:finish():318] scan save: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-metadata.json wandb-metadata.json
+2021-05-22 15:13:46,692 INFO    SenderThread:10264 [dir_watcher.py:finish():318] scan save: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-summary.json wandb-summary.json
+2021-05-22 15:13:46,694 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 6
+2021-05-22 15:13:46,694 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:46,694 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:46,694 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-22 15:13:46,694 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:46,694 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-22 15:13:46,694 INFO    SenderThread:10264 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-22 15:13:46,694 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 7
+2021-05-22 15:13:46,694 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:46,694 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-22 15:13:46,694 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:46,694 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-22 15:13:46,809 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:46,856 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 8
+2021-05-22 15:13:46,856 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:46,856 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:46,856 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-22 15:13:46,856 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:46,856 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-22 15:13:46,856 INFO    SenderThread:10264 [sender.py:send_request_defer():336] send defer: 9
+2021-05-22 15:13:46,856 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: defer
+2021-05-22 15:13:46,856 INFO    HandlerThread:10264 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-22 15:13:46,856 DEBUG   SenderThread:10264 [sender.py:send():176] send: final
+2021-05-22 15:13:46,856 DEBUG   SenderThread:10264 [sender.py:send():176] send: footer
+2021-05-22 15:13:46,856 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: defer
+2021-05-22 15:13:46,856 INFO    SenderThread:10264 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-22 15:13:46,991 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:46,991 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:46,997 INFO    Thread-20 :10264 [upload_job.py:push():133] Uploaded file C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\output.log
+2021-05-22 15:13:46,997 INFO    Thread-18 :10264 [upload_job.py:push():133] Uploaded file C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\conda-environment.yaml
+2021-05-22 15:13:46,997 INFO    Thread-22 :10264 [upload_job.py:push():133] Uploaded file C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\wandb-summary.json
+2021-05-22 15:13:47,012 INFO    Thread-19 :10264 [upload_job.py:push():133] Uploaded file C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\config.yaml
+2021-05-22 15:13:47,028 INFO    Thread-21 :10264 [upload_job.py:push():133] Uploaded file C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\files\requirements.txt
+2021-05-22 15:13:47,106 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:47,106 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:47,215 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:47,215 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:47,325 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-22 15:13:47,325 DEBUG   SenderThread:10264 [sender.py:send_request():186] send_request: poll_exit
+2021-05-22 15:13:47,325 INFO    SenderThread:10264 [file_pusher.py:join():181] waiting for file pusher
+2021-05-22 15:13:47,325 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-22 15:13:47,325 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-22 15:13:47,325 DEBUG   HandlerThread:10264 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-22 15:13:47,325 INFO    HandlerThread:10264 [handler.py:finish():632] shutting down handler
+2021-05-22 15:13:47,856 INFO    WriterThread:10264 [datastore.py:close():258] close: C:\Users\citron-admin\Projects\queryteller\scripts\models\wandb\run-20210522_150549-ql62uc4w\run-ql62uc4w.wandb
+2021-05-22 15:13:48,338 INFO    SenderThread:10264 [sender.py:finish():925] shutting down sender
+2021-05-22 15:13:48,338 INFO    SenderThread:10264 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-22 15:13:48,338 INFO    SenderThread:10264 [file_pusher.py:join():181] waiting for file pusher
+2021-05-22 15:13:48,338 INFO    MainThread:10264 [internal.py:handle_exit():78] Internal process exited

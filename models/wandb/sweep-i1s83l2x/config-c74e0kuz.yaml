@@ -1,0 +1,25 @@
+wandb_version: 1
+
+V:
+  value: 8738
+batch_size:
+  value: 256
+data_frac:
+  value: 0.005
+device:
+  value:
+  - cpu
+dropout:
+  value: 0.2
+emb_size:
+  value: 512
+epochs:
+  value: 2
+hidden_size:
+  value: 256
+lr:
+  value: 0.001
+num_layers:
+  value: 4
+patience:
+  value: 3

@@ -1,0 +1,323 @@
+2021-05-24 18:33:58,562 INFO    MainThread:24774 [internal.py:wandb_internal():64] W&B internal server running at pid: 24774
+2021-05-24 18:33:58,567 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: check_version
+2021-05-24 18:33:58,568 INFO    WriterThread:24774 [datastore.py:open_for_write():77] open: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/run-li3r451q.wandb
+2021-05-24 18:33:58,571 DEBUG   SenderThread:24774 [sender.py:send():117] send: header
+2021-05-24 18:33:58,571 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:33:58,571 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: check_version
+2021-05-24 18:33:58,593 DEBUG   Thread-4  :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-05-24 18:33:58,638 DEBUG   Thread-4  :24774 [connectionpool.py:_make_request():461] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 57462
+2021-05-24 18:33:58,659 DEBUG   SenderThread:24774 [sender.py:send():117] send: run
+2021-05-24 18:33:58,693 DEBUG   SenderThread:24774 [cmd.py:execute():722] Popen(['git', 'cat-file', '--batch-check'], cwd=/project/6001451/eugenie/queryteller, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-05-24 18:33:58,896 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:33:58,998 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:33:59,014 INFO    SenderThread:24774 [dir_watcher.py:__init__():165] watching files in: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files
+2021-05-24 18:33:59,014 INFO    SenderThread:24774 [sender.py:_start_run_threads():596] run started: li3r451q with start time 1621906437
+2021-05-24 18:33:59,014 DEBUG   SenderThread:24774 [sender.py:send():117] send: summary
+2021-05-24 18:33:59,017 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: run_start
+2021-05-24 18:33:59,019 INFO    SenderThread:24774 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-05-24 18:33:59,029 DEBUG   HandlerThread:24774 [meta.py:__init__():34] meta init
+2021-05-24 18:33:59,030 DEBUG   HandlerThread:24774 [meta.py:__init__():48] meta init done
+2021-05-24 18:33:59,030 DEBUG   HandlerThread:24774 [meta.py:probe():190] probe
+2021-05-24 18:33:59,039 DEBUG   HandlerThread:24774 [meta.py:_setup_git():180] setup git
+2021-05-24 18:33:59,046 DEBUG   HandlerThread:24774 [cmd.py:execute():722] Popen(['git', 'cat-file', '--batch-check'], cwd=/project/6001451/eugenie/queryteller, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-05-24 18:33:59,072 DEBUG   HandlerThread:24774 [cmd.py:execute():722] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/project/6001451/eugenie/queryteller, universal_newlines=False, shell=None, istream=None)
+2021-05-24 18:33:59,086 DEBUG   HandlerThread:24774 [meta.py:_setup_git():187] setup git done
+2021-05-24 18:33:59,086 DEBUG   HandlerThread:24774 [meta.py:_save_pip():52] save pip
+2021-05-24 18:33:59,089 DEBUG   HandlerThread:24774 [meta.py:_save_pip():66] save pip done
+2021-05-24 18:33:59,089 DEBUG   HandlerThread:24774 [meta.py:probe():231] probe done
+2021-05-24 18:33:59,096 DEBUG   SenderThread:24774 [sender.py:send():117] send: files
+2021-05-24 18:33:59,097 INFO    SenderThread:24774 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-05-24 18:33:59,106 DEBUG   Thread-11 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:33:59,107 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:33:59,107 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:33:59,108 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:33:59,115 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:33:59,193 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:33:59,214 DEBUG   Thread-11 :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:33:59,225 DEBUG   Thread-11 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-05-24 18:33:59,466 DEBUG   Thread-11 :24774 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/eylai/test-sweeps/li3r451q/wandb-metadata.json?Expires=1621992839&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=P8wxangiCgzP5TC4WBhCqmroEPT3LXWHdKDEnt4ZIPrE%2BjtAdPINefMTy8SxV2eOJ3RRMnOmfSLR0hZslzYaO0tvUWo65kRYRD8agEeskHzKjs39yTQ8LeLCM4aVtvNM1TtFrER6HtcAOQf9rFlyOy5Jd7qxURDWzqDS2wvoAR%2FnyecPtHW1veNk%2FcXyJONRifsD3tHX5bgDmEzvZ3v8Qjs7TDfaY691MvL%2B2i3d5Rt6i1C5Fm%2FX9TqovwliB2wi9wWelyGBwr1OAs3G8lIUyrRqiIfqQrSjEgMo3LMvEdpcVn0F%2FazPk9eQ7z69AQX9%2BqcBzGkQksYpYfBCLs4gAw%3D%3D HTTP/1.1" 200 0
+2021-05-24 18:33:59,468 INFO    Thread-11 :24774 [upload_job.py:push():131] Uploaded file /tmp/tmpk6kdokz2wandb/2l4j8g0i-wandb-metadata.json
+2021-05-24 18:34:00,020 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_created():213] file/dir created: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-metadata.json
+2021-05-24 18:34:00,021 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_created():213] file/dir created: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-summary.json
+2021-05-24 18:34:00,021 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_created():213] file/dir created: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/requirements.txt
+2021-05-24 18:34:00,022 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_created():213] file/dir created: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/output.log
+2021-05-24 18:34:01,019 DEBUG   Thread-5  :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:34:01,114 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:02,537 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:04,634 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:07,126 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:07,218 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:09,011 DEBUG   SenderThread:24774 [sender.py:send():117] send: history
+2021-05-24 18:34:09,012 DEBUG   SenderThread:24774 [sender.py:send():117] send: summary
+2021-05-24 18:34:09,014 INFO    SenderThread:24774 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-05-24 18:34:09,029 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-summary.json
+2021-05-24 18:34:09,030 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/output.log
+2021-05-24 18:34:11,102 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:11,731 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:13,824 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:14,199 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:34:14,200 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:34:14,200 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:34:14,207 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:34:14,291 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:34:15,487 DEBUG   SenderThread:24774 [sender.py:send():117] send: history
+2021-05-24 18:34:15,488 DEBUG   SenderThread:24774 [sender.py:send():117] send: summary
+2021-05-24 18:34:15,489 INFO    SenderThread:24774 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-05-24 18:34:16,039 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-summary.json
+2021-05-24 18:34:16,040 INFO    Thread-8  :24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/output.log
+2021-05-24 18:34:16,302 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:16,390 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:20,869 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:20,955 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:25,446 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:25,535 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:29,297 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:34:29,298 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:34:29,299 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:34:29,309 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:34:29,396 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:34:30,039 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:30,152 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:34,620 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:34,715 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:39,208 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:39,301 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:43,795 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:43,884 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:44,402 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:34:44,402 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:34:44,402 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:34:44,413 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:34:44,495 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:34:48,370 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:48,454 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:52,954 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:53,045 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:34:57,512 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:34:59,500 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:34:59,500 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:34:59,500 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:34:59,508 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:34:59,589 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:35:02,107 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:06,678 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:06,763 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:35:11,267 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:14,595 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:35:14,595 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:35:14,595 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:35:14,603 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:35:14,687 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:35:15,846 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:20,435 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:20,531 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:35:25,026 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:29,616 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:29,692 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:35:29,692 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:35:29,692 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:35:29,701 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:35:29,782 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:35:34,199 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:34,295 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:35:38,783 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:43,371 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:44,788 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:35:44,789 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:35:44,789 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:35:44,796 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:35:44,878 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:35:47,961 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:48,062 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:35:52,549 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:57,134 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:35:59,883 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:35:59,884 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:35:59,884 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:35:59,891 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:35:59,970 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:36:01,722 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:01,807 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:36:06,308 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:10,902 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:14,974 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:36:14,975 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:36:14,975 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:36:14,982 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:36:15,060 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:36:15,484 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:15,578 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:36:20,074 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:24,667 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:29,257 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:29,347 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:36:30,066 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:36:30,066 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:36:30,066 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:36:30,072 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:36:30,149 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:36:33,843 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:38,429 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:43,014 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:43,101 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:36:45,154 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:36:45,155 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:36:45,155 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:36:45,161 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:36:45,244 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:36:47,594 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:52,179 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:56,770 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:36:56,871 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:00,248 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:37:00,249 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:00,249 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:37:00,256 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:00,339 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:01,355 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:05,946 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:10,529 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:10,638 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:15,115 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:15,344 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:37:15,344 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:15,345 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:37:15,351 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:15,431 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:19,700 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:24,287 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:24,375 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:28,874 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:30,437 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:37:30,437 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:30,437 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:37:30,445 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:30,522 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:33,462 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:38,044 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:38,234 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:42,634 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:45,527 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: status
+2021-05-24 18:37:45,527 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:45,527 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: status
+2021-05-24 18:37:45,535 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:45,662 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:47,222 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:51,809 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:51,898 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:55,759 DEBUG   SenderThread:24774 [sender.py:send():117] send: history
+2021-05-24 18:37:55,760 DEBUG   SenderThread:24774 [sender.py:send():117] send: summary
+2021-05-24 18:37:55,764 INFO    SenderThread:24774 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-05-24 18:37:55,789 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: poll_exit
+2021-05-24 18:37:55,789 DEBUG   SenderThread:24774 [sender.py:send():117] send: telemetry
+2021-05-24 18:37:55,802 DEBUG   SenderThread:24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:55,905 DEBUG   SenderThread:24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:55,919 DEBUG   SenderThread:24774 [sender.py:send():117] send: exit
+2021-05-24 18:37:55,920 INFO    SenderThread:24774 [sender.py:send_exit():195] handling exit code: 0
+2021-05-24 18:37:55,920 INFO    SenderThread:24774 [sender.py:send_exit():203] send defer
+2021-05-24 18:37:55,920 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:55,921 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: poll_exit
+2021-05-24 18:37:55,921 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:55,922 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 0
+2021-05-24 18:37:55,922 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:55,922 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:55,923 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-05-24 18:37:55,923 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 1
+2021-05-24 18:37:55,923 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:55,924 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 1
+2021-05-24 18:37:55,963 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:55,964 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:55,965 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-05-24 18:37:55,965 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 2
+2021-05-24 18:37:55,965 DEBUG   SenderThread:24774 [sender.py:send():117] send: stats
+2021-05-24 18:37:55,967 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:55,967 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 2
+2021-05-24 18:37:55,967 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:55,967 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:55,967 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-05-24 18:37:55,967 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 3
+2021-05-24 18:37:55,968 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:55,969 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 3
+2021-05-24 18:37:55,970 DEBUG   SenderThread:24774 [sender.py:send():117] send: summary
+2021-05-24 18:37:55,972 INFO    SenderThread:24774 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-05-24 18:37:55,973 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:55,973 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:55,973 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-05-24 18:37:55,973 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 4
+2021-05-24 18:37:55,974 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:55,974 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 4
+2021-05-24 18:37:55,975 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:55,975 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:55,975 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-05-24 18:37:55,975 INFO    SenderThread:24774 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-05-24 18:37:56,083 INFO    SenderThread:24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-summary.json
+2021-05-24 18:37:56,083 INFO    SenderThread:24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/config.yaml
+2021-05-24 18:37:56,084 INFO    SenderThread:24774 [dir_watcher.py:_on_file_modified():226] file/dir modified: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/output.log
+2021-05-24 18:37:56,084 INFO    SenderThread:24774 [dir_watcher.py:finish():309] scan: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files
+2021-05-24 18:37:56,085 INFO    SenderThread:24774 [dir_watcher.py:finish():315] scan save: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/config.yaml config.yaml
+2021-05-24 18:37:56,085 INFO    SenderThread:24774 [dir_watcher.py:finish():315] scan save: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-summary.json wandb-summary.json
+2021-05-24 18:37:56,086 INFO    SenderThread:24774 [dir_watcher.py:finish():315] scan save: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/requirements.txt requirements.txt
+2021-05-24 18:37:56,096 DEBUG   Thread-12 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:56,102 INFO    SenderThread:24774 [dir_watcher.py:finish():315] scan save: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/output.log output.log
+2021-05-24 18:37:56,106 DEBUG   Thread-13 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:56,115 DEBUG   Thread-14 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:56,116 INFO    SenderThread:24774 [dir_watcher.py:finish():315] scan save: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-metadata.json wandb-metadata.json
+2021-05-24 18:37:56,116 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 5
+2021-05-24 18:37:56,125 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:56,125 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 5
+2021-05-24 18:37:56,126 DEBUG   Thread-15 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-05-24 18:37:56,126 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:56,126 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:56,127 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-05-24 18:37:56,127 INFO    SenderThread:24774 [file_pusher.py:finish():170] shutting down file pusher
+2021-05-24 18:37:56,127 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 6
+2021-05-24 18:37:56,128 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:56,128 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 6
+2021-05-24 18:37:56,128 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:56,128 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:56,129 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-05-24 18:37:56,201 DEBUG   Thread-12 :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:56,210 DEBUG   Thread-12 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-05-24 18:37:56,213 DEBUG   Thread-13 :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:56,224 DEBUG   Thread-13 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-05-24 18:37:56,230 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:56,246 DEBUG   Thread-15 :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:56,258 DEBUG   Thread-15 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-05-24 18:37:56,259 DEBUG   Thread-14 :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-05-24 18:37:56,271 DEBUG   Thread-14 :24774 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-05-24 18:37:56,295 DEBUG   Thread-5  :24774 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/eylai/test-sweeps/li3r451q/file_stream HTTP/1.1" 200 None
+2021-05-24 18:37:56,297 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 7
+2021-05-24 18:37:56,298 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:56,299 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 7
+2021-05-24 18:37:56,299 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:56,299 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:56,299 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-05-24 18:37:56,299 INFO    SenderThread:24774 [sender.py:send_request_defer():248] send defer: 8
+2021-05-24 18:37:56,301 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: defer
+2021-05-24 18:37:56,301 DEBUG   SenderThread:24774 [sender.py:send():117] send: final
+2021-05-24 18:37:56,301 INFO    HandlerThread:24774 [handler.py:handle_request_defer():69] handle defer: 8
+2021-05-24 18:37:56,302 DEBUG   SenderThread:24774 [sender.py:send():117] send: footer
+2021-05-24 18:37:56,302 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:56,303 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: defer
+2021-05-24 18:37:56,303 INFO    SenderThread:24774 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-05-24 18:37:56,451 DEBUG   Thread-13 :24774 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/eylai/test-sweeps/li3r451q/wandb-summary.json?Expires=1621993076&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=l6nn8%2BAUu0nwIkyMtUPdfzRZTSxlsh43F5MLZSQenHWQuOCW%2BKcwFXiiqcHYNe5AgdyVkdtzHhUuhFUUcK7WmPrxreZnBhUXY6sHfWTaqUT5Q3K0tdKjtD%2BglGkaY1Hb%2BjkUNfu7h1O5qI74Bnv18RLnwaaQ%2FWa9hsymOZsZYhMjbMPBid63zXG73wbKd8NxKI92LxLdhF%2ByGLZYx8oYzzDMXVm1qdJpWw56KbNogUX%2BJTMv6T26Cl%2Fgk%2FQ%2BISGAWkprbePHV1V59t85hnSIyIbYiN95SncHFR%2FLHhbhtxzSlq7hhNEXVc3aPal%2Be2zPEFeS8nPN8nBq0CU22RTqlQ%3D%3D HTTP/1.1" 200 0
+2021-05-24 18:37:56,454 INFO    Thread-13 :24774 [upload_job.py:push():131] Uploaded file /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/wandb-summary.json
+2021-05-24 18:37:56,455 DEBUG   Thread-12 :24774 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/eylai/test-sweeps/li3r451q/config.yaml?Expires=1621993076&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=CqQxZykgvekEOkosnzfhJ%2Feqo43IN%2B59Ko4eO4q9b%2BhHjBZaTtXTKp3kFqTw4OHZ5yl%2FoEYEW1Sqaw%2Fqg%2BYqeL%2BiF0Z6ZjqWKrw7qes8im4s2etOGYfACNU7bTvyPqt87mESvnY9zgn4tudDE3xwF0a%2FUB6xKaHbGVy1ocCHNoy3C6NySLAxZykZP7rQyieJ9CoRsY83kXxIPPnrvbpbPSGnSl3EJaX56T%2F81A%2BkUKr%2F4pmAG4yBthQRZC%2BYq%2F3QcXP6G4cuzOwrM%2BQn6nWIME%2Bwq7zaM3t8R2xNJIpIiC8fv5dhijJWsHC2qQfdXjJKGMiFaPjzFUy6KOxPOcK%2Bmg%3D%3D HTTP/1.1" 200 0
+2021-05-24 18:37:56,458 INFO    Thread-12 :24774 [upload_job.py:push():131] Uploaded file /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/config.yaml
+2021-05-24 18:37:56,472 DEBUG   Thread-15 :24774 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/eylai/test-sweeps/li3r451q/output.log?Expires=1621993076&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=DdHqEXSbRERR%2BtU7jVq0psdGlJMYw1kQ%2FAyFGV34vwwrueqk0uPAiKvDV7rs3xfvgw9hviVtbydSyq6r62d2v5yY8NrQm9noz4AAZE9OHKQT49GE18d9w%2FFD1bd5bbaDKxwWrN%2BtDfz2i71XeyTxyT0BnWSyGSiU%2FfX4S5VE2LQy3D7CIrhczTpE%2BIatBTW5kBX6EvtWdo2jsbnoUfMBETVbOPE2U8wu01AKwUvW5R393LCRz%2B%2BGryudZqa7TD3o0d8f04Gh8BbCztLSXXxn96AeRQoqZqtwq9TMEUzj3Pai2ikL7WfwCoOJfOXtDvDUHBGzOfsEYapOyZnU7BOi%2BA%3D%3D HTTP/1.1" 200 0
+2021-05-24 18:37:56,474 INFO    Thread-15 :24774 [upload_job.py:push():131] Uploaded file /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/output.log
+2021-05-24 18:37:56,480 DEBUG   Thread-14 :24774 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/eylai/test-sweeps/li3r451q/requirements.txt?Expires=1621993076&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=TEm878BbTd3J6RY5eaI8PfloLx87D69X6ggRYOrhRW5cc5et6UIyI5gmXRymsCvSk64yXWUci%2ByMReGKC5BW97sW5g%2BeXGbrOAzMevW3sUG%2BNK5Ya4rgunQd9EzTInyHpCE4TW9QH51FzBO2FYFk5MA%2BABHUgEUBI01%2BlIhBpKXsUVpbGrLY%2FC5Ul59TOz%2FOFbotuVW3F7kfCvPu%2BVTOVL2Jb9vvfYHq89KLzjf0FZFNgPBPWPdWJ2lM8cRXJlUMiMOLDeHaiceeSQ0mgWfMgVXt60VQBtCDCnJ4yuBzMbs2ucqpnl228NJNUyFmVFRcDJo%2F3rKCpYg43Aztmya8FA%3D%3D HTTP/1.1" 200 0
+2021-05-24 18:37:56,483 INFO    Thread-14 :24774 [upload_job.py:push():131] Uploaded file /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/files/requirements.txt
+2021-05-24 18:37:57,934 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: poll_exit
+2021-05-24 18:37:57,935 DEBUG   SenderThread:24774 [sender.py:send():117] send: request
+2021-05-24 18:37:57,935 DEBUG   SenderThread:24774 [sender.py:send_request():126] send_request: poll_exit
+2021-05-24 18:37:57,936 INFO    SenderThread:24774 [file_pusher.py:join():175] waiting for file pusher
+2021-05-24 18:37:57,939 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: get_summary
+2021-05-24 18:37:57,942 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: sampled_history
+2021-05-24 18:37:57,947 DEBUG   HandlerThread:24774 [handler.py:handle_request():55] handle_request: shutdown
+2021-05-24 18:37:57,948 INFO    HandlerThread:24774 [handler.py:finish():274] shutting down handler
+2021-05-24 18:37:58,301 INFO    WriterThread:24774 [datastore.py:close():258] close: /project/6001451/eugenie/queryteller/scripts/models/wandb/run-20210524_183357-li3r451q/run-li3r451q.wandb
+2021-05-24 18:37:58,936 INFO    SenderThread:24774 [sender.py:finish():756] shutting down sender
+2021-05-24 18:37:58,936 INFO    SenderThread:24774 [file_pusher.py:finish():170] shutting down file pusher
+2021-05-24 18:37:58,936 INFO    SenderThread:24774 [file_pusher.py:join():175] waiting for file pusher
+2021-05-24 18:37:58,939 INFO    MainThread:24774 [internal.py:handle_exit():139] Internal process exited

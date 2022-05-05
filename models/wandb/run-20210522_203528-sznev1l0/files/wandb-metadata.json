@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.4",
+    "heartbeatAt": "2021-05-23T03:35:29.503946",
+    "startedAt": "2021-05-23T03:35:28.127785",
+    "docker": null,
+    "gpu": "GeForce GTX 1080",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "cnn.yaml"
+    ],
+    "state": "running",
+    "program": "classification_pipeline.py",
+    "codePath": "scripts\\models\\classification_pipeline.py",
+    "git": {
+        "remote": "git@github.com:eugenieshine/queryteller.git",
+        "commit": "8b4e3ce23cb357cde8252b4b215daf594cb86a54"
+    },
+    "email": "yujinglai0707@gmail.com",
+    "root": "C:/Users/citron-admin/Projects/queryteller",
+    "host": "citron",
+    "username": "citron-admin",
+    "executable": "C:\\Users\\citron-admin\\Anaconda3\\python.exe"
+}
