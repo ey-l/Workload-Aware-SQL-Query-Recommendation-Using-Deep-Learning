@@ -1,0 +1,23 @@
+setup:
+    dataset: sqlshare
+    architecture: 'transformer' #'transformer', 'rnn', 'cnn'
+range:
+    lr: 
+        values: [1e-3,1e-4] # [3e-4, 6e-4]
+    emb_size:
+        values: [128]  # [128, 512, 1024]
+    hidden_size:
+        values: [512] #768, 512
+    d_ff:
+        values: [2048] #3072, 2048
+    num_layers:
+        values: [2]     # [2, 6, 12]
+    heads:
+        values: [8]    # 12, 8
+    batch_size:
+        values: [64]    # 16
+    dropout:
+        values: [0.0] # 0.3 ALBERT concludes that dropout can hurt performance
+constant: 
+    architecture:
+        value: null

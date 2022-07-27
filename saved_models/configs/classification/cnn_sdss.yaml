@@ -1,0 +1,13 @@
+# Depending on the result of HP tuning
+setup:
+    dataset: sdss_v2
+    template_min_count: 9 # sdss: 9, sqlshare: 3
+    architecture: 'cnn' #'transformer', 'rnn', 'cnn'
+constant: 
+    emb_size: 100
+    hidden_size: 512
+    num_layers: 2
+    kenel: 3
+    dropout: 0.3
+    output_size: 100
+    V: null

@@ -1,0 +1,45 @@
+# Change: if_aware, template_min_count, dataset
+setup:
+    project: "template-classification"
+    if_aware: 1 # boolean
+    proj_dir: "/home/eugenie/projects/def-rachelpo/eugenie/queryteller/"
+    data_dir: "/home/eugenie/projects/def-rachelpo/eugenie/data/processed/"
+    scripts_dir: "/home/eugenie/projects/def-rachelpo/eugenie/queryteller/scripts/models/"
+    seq_data: "model_data/seq/"
+    class_data: "model_data/classification/"
+    sweep_config:
+        method: 'grid'
+        metric:
+            name: 'valid_loss'
+            goal: 'minimize'
+# Things we want to record in wandb
+range:
+    lr: 
+        values: [5e-5]
+    hidden_size:
+        values: [512]
+    batch_size:
+        values: [64]
+    dropout:
+        values: [0.0]
+constant:
+    if_aware:
+        value: null
+    architecture:
+        value: null
+    problem: 
+        value: 'template' # 'fragment', 'template'
+    dataset:
+        value: null
+    device: 
+        value: null
+    epochs:
+        value: 200
+    patience:
+        value: 3
+    data_frac:
+        value: 1
+    V:
+        value: null
+    emb_size:
+        value: null

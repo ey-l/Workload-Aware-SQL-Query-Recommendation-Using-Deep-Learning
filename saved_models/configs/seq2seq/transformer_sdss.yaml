@@ -1,0 +1,23 @@
+setup:
+    dataset: sdss_v2
+    architecture: 'transformer' #'transformer', 'rnn', 'cnn'
+range:
+    lr: 
+        values: [1e-4] # [3e-4, 6e-4]
+    emb_size:
+        values: [128]  # [128, 512, 1024]
+    hidden_size:
+        values: [512]
+    d_ff:
+        values: [2048]
+    num_layers:
+        values: [2]     # [2, 6, 12]
+    heads:
+        values: [8]    # [3, 12, 16]
+    batch_size:
+        values: [64]    # 16
+    dropout:
+        values: [0.0] # 0.1
+constant: 
+    architecture:
+        value: null

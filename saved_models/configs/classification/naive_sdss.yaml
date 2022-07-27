@@ -1,0 +1,7 @@
+# Depending on the result of HP tuning
+setup:
+    dataset: sdss_v2
+    template_min_count: 9 # sdss: 9, sqlshare: 3
+    architecture: 'naive' #'transformer', 'rnn', 'cnn'
+constant: 
+    V: null

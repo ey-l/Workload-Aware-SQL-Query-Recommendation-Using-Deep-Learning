@@ -1,0 +1,19 @@
+setup:
+    dataset: sqlshare #sqlshr
+    architecture: 'rnn' #'transformer', 'rnn', 'cnn'
+range:
+    lr: 
+        values: [1e-4]
+    emb_size:
+        values: [620]
+    num_layers:
+        values: [2]
+    hidden_size:
+        values: [1024]
+    batch_size:
+        values: [80]
+    dropout:
+        values: [0.0]
+constant: 
+    architecture:
+        value: null
